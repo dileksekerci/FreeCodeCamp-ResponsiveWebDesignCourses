@@ -10,7 +10,7 @@
     <form id="survey-form">
       <fieldset>
       <label id="name-label">
-        Name <input type="text" id="name" placeholder="Enter your name" require />
+        Name <input type="text" id="name" placeholder="Enter your name" required />
       </label>
       <label id="email-label">
         Email <input type="email" id="email" placeholder="Enter your Email" required />
@@ -23,7 +23,7 @@
       <fieldset>
       <label>
         Which option best describes your current role?
-          <select name="referrer">
+          <select name="referrer" id="dropdown" >
             <option value="">Select current role</option>
             <option value="1">Student</option>
             <option value="2">Full Time Job</option>
@@ -37,46 +37,46 @@
         <fieldset>
           Would you recommend freeCodeCamp to a friend?
           <label>
-            <input type="radio" name="recommend" class="inline" />Definitely</label>
+            <input type="radio" name="recommend" class="inline" value="radio1" />Definitely</label>
           <label>
-            <input type="radio" name="recommend" class="inline" />Maybe</label>
+            <input type="radio" name="recommend" class="inline" value="radio2" />Maybe</label>
           <label>
-            <input type="radio" name="recommend" class="inline" />Not sure</label>
+            <input type="radio" name="recommend" class="inline" value="radio3" />Not sure</label>
           </fieldset>
 
           <fieldset>
             What would you like to see improved? (Check all that apply)
             <label>
-              <input type="checkbox" /> Front-end Projects
+              <input type="checkbox" value="check1" /> Front-end Projects
             </label>
             <label>
-              <input type="checkbox" /> Back-end Projects
+              <input type="checkbox" value="check2" /> Back-end Projects
             </label>
             <label>
-              <input type="checkbox" /> Data Visualization
+              <input type="checkbox" value="check3" /> Data Visualization
             </label>
             <label>
-              <input type="checkbox" /> Challenges
+              <input type="checkbox" value="check4" /> Challenges
             </label>
             <label>
-              <input type="checkbox" /> Open Source Community
+              <input type="checkbox" value="check5" /> Open Source Community
             </label>
-              <input type="checkbox" /> Gitter help rooms
-            </label>
-            <label>
-              <input type="checkbox" /> Videos
+              <input type="checkbox" value="check6" /> Gitter help rooms
             </label>
             <label>
-              <input type="checkbox" /> City Meetups
+              <input type="checkbox" value="check7" /> Videos
             </label>
             <label>
-              <input type="checkbox" /> Wiki
+              <input type="checkbox" value="check8" /> City Meetups
             </label>
             <label>
-              <input type="checkbox" /> Forum
+              <input type="checkbox" value="check9" /> Wiki
             </label>
             <label>
-              <input type="checkbox" /> Additional Courses
+              <input type="checkbox" value="check10" /> Forum
+            </label>
+            <label>
+              <input type="checkbox" value="check11" /> Additional Courses
             </label>
           </fieldset>
 
