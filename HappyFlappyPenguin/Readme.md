@@ -1,5 +1,5 @@
 # Happpy Flappy Penguin
  Project made for FreeCodeCamp - Responsive Web Design course.
- - You can see the view in the picture below. :)
+ - You can see the view in the gif below. :)
 
- ![Screenshot](screenshots/penguin.gif)
+ ![Screenshot](Screenshot/penguin.gif)
